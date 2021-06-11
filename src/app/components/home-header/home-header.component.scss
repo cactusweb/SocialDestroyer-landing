@@ -1,0 +1,148 @@
+header{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: min-content;
+    row-gap: 35px;
+    // width: 1340px;
+    padding: 30px 80px 20px;
+    @media screen and ( min-width: 1550px ){
+        width: 1550px;
+        justify-self: center;
+    }
+    @media screen and ( max-width: 1140px ) {
+        padding: 30px 40px 20px;
+    }
+    @media screen and ( max-width: 900px ){
+        min-height: auto;
+        padding: 30px 20px 20px;
+    }
+    @media screen and ( max-width: 680px ) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+main{
+    padding: 0px 5%;
+    box-sizing: border-box;
+    display: grid;
+    // grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+
+    @media screen and ( max-width: 680px ) {
+        padding: 0px;
+    }
+
+    img{
+        display: none;
+    }
+}
+
+
+.descript{
+    z-index: 1;
+    display: grid;
+    h1{
+        font-size: 70px;
+        font-weight: 800;
+    }
+    
+    p{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    button{
+        margin-top: 40px;
+        background-color: #FF6B95;
+        height: 60px;
+        border-radius: 10px;
+        width: 180px;
+    }
+}
+
+
+
+
+
+.background{
+    position: absolute;
+    height: 90%;
+    width: 55%;
+    right: 5%;
+    top: 50%;
+
+    transform: translate(0%, -50%);
+
+
+    background: url('/assets/img/gui/cli.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.background img{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+    main{
+        grid-template-rows: auto 1fr;
+        row-gap: 20px;
+        align-self: start;
+        img{
+            width: 100%;
+            display: block;
+            grid-row: 1/2;
+        }
+    }
+
+    .background{
+        display: none;
+        position: static;
+        grid-row: 1/2;
+        transform: translate(0%, 0%);
+        width: auto;
+        background: none;
+    }
+
+    .background img{
+        display: block;
+    }
+
+    .descript{
+        h1{
+            font-size: 36px;
+        }
+
+        p{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        button{
+            height: 50px;
+            // margin-top: 10px;
+            justify-self: center;
+        }
+    }
+}
+
+@media ( max-width: 650px ){
+    main{
+        grid-template-rows: auto;
+        // img{
+        //     display: none;
+        // }
+    }
+}
