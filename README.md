@@ -1,6 +1,6 @@
-# VisionAIO
+# SocialDestroyer
 
-This project is landing for dashboard of CactusDashboard of [VisionAIO](https://vk.com/sd_aio). <br />
+This project is landing for dashboard of CactusDashboard of [SocialDestroyer](https://vk.com/sd_aio). <br />
 Landing url: [https://visionaio.com](https://socialdestroyer.org) <br />
 Dashboard url: [https://dash.visionaio.com](https://socialdestroyer.org) <br /> <br />
 
