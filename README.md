@@ -2,7 +2,7 @@
 
 This project is landing for dashboard of CactusDashboard of [SocialDestroyer](https://vk.com/sd_aio). <br />
 Landing url: [https://socialdestroyer.org](https://socialdestroyer.org) <br />
-Dashboard url: [https://dash.socialdestroyer.org](https://socialdestroyer.org) <br /> <br />
+Dashboard url: [https://dash.socialdestroyer.org](https://dash.socialdestroyer.org) <br /> <br />
 
 ***Copyright belongs to [CactusWeb](https://manager.cactusweb.io).*** <br />
 ***Exclusive use rights belong to [SocialDestroyer](https://socialdestroyer.org).***
