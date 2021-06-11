@@ -1,8 +1,8 @@
 # SocialDestroyer
 
 This project is landing for dashboard of CactusDashboard of [SocialDestroyer](https://vk.com/sd_aio). <br />
-Landing url: [https://visionaio.com](https://socialdestroyer.org) <br />
-Dashboard url: [https://dash.visionaio.com](https://socialdestroyer.org) <br /> <br />
+Landing url: [https://socialdestroyer.org](https://socialdestroyer.org) <br />
+Dashboard url: [https://dash.socialdestroyer.org](https://socialdestroyer.org) <br /> <br />
 
 ***Copyright belongs to [CactusWeb](https://manager.cactusweb.io).*** <br />
 ***Exclusive use rights belong to [SocialDestroyer](https://socialdestroyer.org).***
